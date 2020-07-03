@@ -1,0 +1,83 @@
+/* 这里是所有共性代码 */
+a.text{
+    line-height: 1.62;
+    font: 12px Helvetica,Arial,sans-serif;
+}
+.text:link{
+    color: #017a85;
+}
+a.text:visited{
+    color: #37a;
+}
+a.text:hover{
+    color: #fff;
+    background-color: #3377aa;
+}
+a.text:active{
+    color: #fff;
+    background-color: #f93;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.container{
+    width: 950px;
+    margin: 0 auto;
+}
+
+.text-font::placeholder{
+    color: #cfcfda;
+}
+.hidden{
+    display: none;
+}
+.big-button{
+    color: #ffffff;
+    background-color: #97d8a1;
+    height: 34px;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 34px;
+}
+.big-button-active{
+    cursor: pointer;
+    background-color: #41ac52;
+}
+.wrapper{
+    width: 950px;
+    margin: 0 auto;
+}
+
+.side{
+    float: right;
+    margin-left: 30px;
+    width: 265px;
+}
+.pl{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666;
+    line-height: 150%;
+}
+h2{
+    font-size: 15px;
+    color: #072;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 12px;
+    line-height: 150%;
+}
+.section{
+    margin-bottom: 30px;
+    padding: 10px 0;
+    min-height: 200px;
+}
