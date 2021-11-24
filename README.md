@@ -1,2 +1,2 @@
 # Douban-static-page
-豆瓣静态首页
+豆瓣静态
